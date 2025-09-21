@@ -7,7 +7,6 @@ body {
   overflow: hidden;
 }
 
-
 /* -----------------------Main Box------------------------- */
 .main {
   display: flex;
@@ -15,9 +14,8 @@ body {
   padding: 0.5rem;
 }
 
-/* ------------------------side bar--------------------------------- */
+/* --------------------------------------------------------------------------------Side bar---------------------------------------------------------------------------------- */
 .sidebar {
- 
   padding-right: 10px;
   background-color: black;
   width: 23%;
@@ -48,7 +46,6 @@ body {
   opacity: 1;
 }
 
-
 /* ------------------------Library---------------------- */
 
 .library {
@@ -56,87 +53,121 @@ body {
   background-color: #121212;
   border-radius: 1rem;
   height: 100%;
-   padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0.75rem;
 }
 .options {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.lib-option img{
-    height: 1.25rem;
-    width: 1.25rem;
+.lib-option img {
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
+.icons {
+  font-size: rem;
 
-.icons{
-    font-size: rem;
-    
-   display: flex;
-    
-   
+  display: flex;
 }
-.icons i{
-     opacity: 0.5;
-    margin-left: 10px;
+.icons i {
+  opacity: 0.5;
+  margin-left: 10px;
 }
 
-
-.icons .fa-arrow-right:hover{
-    opacity: 1;
-    
+.icons .fa-arrow-right:hover {
+  opacity: 1;
 }
 
-.icons .fa-plus:hover{
-    opacity: 1;
+.icons .fa-plus:hover {
+  opacity: 1;
 }
 
-.box{
-background-color: #232323;
-height: 8rem;
-border-radius: 0.75rem;
-margin: 0.5rem 0 0.5rem;
-padding: 1rem 1.25rem;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
+.box {
+  background-color: #232323;
+  height: 8rem;
+  border-radius: 0.75rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.box-p1{
-    font-size: 1rem;
-    font-weight: 600;
+.box-p1 {
+  font-size: 1rem;
+  font-weight: 600;
 }
-.box-p2{
-    font-size: 0.8rem;
-    opacity: 0.75;
+.box-p2 {
+  font-size: 0.8rem;
+  opacity: 0.75;
 }
-.badge{
-
-    height: 2rem;
-    width: 10rem;
-    border-radius: 30px;
-   border: none; 
+.badge {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 30px;
+  border: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* -----------------------------------------Mian content----------------------------- */
 .main-container {
-   
   background-color: #121212;
   flex: 1;
   border-radius: 1rem;
   overflow: auto;
+  padding: 1rem;
 }
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.sticky-nav-options {
+}
+.ri-btn {
+  margin: 0 4px;
+}
+
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
+  .small {
+    width: auto;
+    font-size: 0.7rem;
+  }
+}
+
+.card {
+  background-color: #232323;
+  width: 150px;
+  border-radius: 0.6rem;
+  padding: 1rem;
+}
+
+.card-container {
+  display: flex;
+
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 0.5rem;
+
+}
+.card-title{
+  
+}
+
+.card-info{
+  font-size: 0.7rem;
+}
+
 .music-player {
   color: black;
   background-color: black;
